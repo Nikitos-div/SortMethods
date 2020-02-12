@@ -1,7 +1,7 @@
 //insertionSort
 var TEST = [1, 0, 20, 5, 7, 21, 68, 98]
 
-const insertionSort = (array) => {
+ export const insertionSort = (array) => {
     var counter = 0;
     const l = array.length
     for (let i = 0; i <= l; i++) {

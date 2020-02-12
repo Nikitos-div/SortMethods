@@ -1,6 +1,6 @@
 var TEST = [1, 4, 0, 3, 6, 2, 0, -1, 10, 7]
 
-const selectionSort = (arr) => {
+export const selectionSort = (arr) => {
 	let l = arr.length
 	for (let i = 0; i < l - 1; i++) {
 		let min = i

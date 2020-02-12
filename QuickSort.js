@@ -28,7 +28,7 @@ var TEST = [68, 53, 23, 24, 7, 2, -2, 46, 8, 5, 4]
 
 // console.log(quickSort(TEST, 0, TEST.length))
 
-const quickSort = (arr) => {
+export const quickSort = (arr) => {
   if (arr.length < 2) {
       return arr
   }
